@@ -79,4 +79,25 @@ int main(){
 		cout<<w[O] << " | ";
 		O++;
 		}while(O<5);cout<< endl;
+	
+	//menampilkan nilai perkalian matriks R * W menggunakan perulangan while
+		cout << endl << endl;
+	cout << " MATRIKS R * W :" << endl;
+	int p=0;
+		do {
+			cout <<RWa1c[p] << " | ";
+			p++;
+		}while(p<5);cout << endl;
+	int q=0;
+		do {
+			cout <<RWa2c[q] << " | ";
+			q++;
+		}while(q<5);cout << endl;
+	int r=0;
+		do {
+			cout <<RWa3c[r] << " | ";
+			r++;
+		}while(r<5);cout << endl;
+		
+			cout << endl << endl;
 }
